@@ -265,14 +265,16 @@ ul {
     font-size: 1.1rem;
 }
 
-.img-placeholder {
+.about-image img {
     width: 100%;
-    height: 500px;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border: 2px solid var(--border-color);
     background-color: var(--card-bg);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--border-color);
     color: var(--secondary-text);
     font-family: var(--font-code);
 }
@@ -332,7 +334,7 @@ ul {
 }
 
 .card-media {
-    height: 250px;
+    height: 150px;
     background-color: #222;
     display: flex;
     align-items: center;
@@ -346,7 +348,7 @@ ul {
 }
 
 .card-info h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 
