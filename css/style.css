@@ -52,8 +52,8 @@ body {
 
 .cursor-dot {
     color: #e63946;
-    width: 4px;
-    height: 4px;
+    width: 2px;
+    height: 2px;
     background-color: var(--accent-color);
 }
 
@@ -61,7 +61,7 @@ body {
     color: #e63946;
     width: 40px;
     height: 40px;
-    border: 2px solid var(--accent-color);
+    border: 1px solid var(--accent-color);
     transition: width 0.2s, height 0.2s, background-color 0.2s;
 }
 
@@ -334,13 +334,21 @@ ul {
 }
 
 .card-media {
-    height: 150px;
+    height: auto;
+    min-height: 225px;
     background-color: #222;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--secondary-text);
     font-family: var(--font-code);
+    overflow: hidden;
+}
+
+.card-media iframe {
+    width: 100%;
+    height: 225px;
+    border: none;
 }
 
 .card-info {
