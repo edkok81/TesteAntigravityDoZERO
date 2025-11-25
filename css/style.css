@@ -124,11 +124,6 @@ ul {
     gap: 40px;
 }
 
-.nav-links.active {
-    text-decoration: underline;
-    text-decoration-color: #e63946;
-}
-
 .nav-links a {
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -137,6 +132,13 @@ ul {
 }
 
 .nav-links a:hover {
+    color: var(--text-color);
+}
+
+.nav-links a.active {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-underline-offset: 5px;
     color: var(--text-color);
 }
 
@@ -236,7 +238,7 @@ ul {
 
 .section-title {
     font-family: var(--font-code);
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: var(--secondary-text);
     margin-bottom: 60px;
     display: block;
