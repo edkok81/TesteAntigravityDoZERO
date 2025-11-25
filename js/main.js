@@ -63,10 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update button states
             prevBtn.style.opacity = currentIndex === 0 ? '0.5' : '1';
             prevBtn.style.cursor = currentIndex === 0 ? 'default' : 'pointer';
-
-            // Simple logic for end of list, can be improved for infinite loop
-            const maxIndex = cards.length - 1; // Approximate
-            // nextBtn.style.opacity = currentIndex >= maxIndex ? '0.5' : '1';
         }
     }
 

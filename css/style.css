@@ -40,6 +40,7 @@ body {
 /* Custom Cursor */
 .cursor-dot,
 .cursor-outline {
+    color: #e63946;
     position: fixed;
     top: 0;
     left: 0;
@@ -50,12 +51,14 @@ body {
 }
 
 .cursor-dot {
+    color: #e63946;
     width: 8px;
     height: 8px;
     background-color: var(--text-color);
 }
 
 .cursor-outline {
+    color: #e63946;
     width: 40px;
     height: 40px;
     border: 1px solid var(--text-color);
@@ -119,6 +122,11 @@ ul {
 .nav-links {
     display: flex;
     gap: 40px;
+}
+
+.nav-links.active {
+    text-decoration: underline;
+    text-decoration-color: #e63946;
 }
 
 .nav-links a {
@@ -228,7 +236,7 @@ ul {
 
 .section-title {
     font-family: var(--font-code);
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--secondary-text);
     margin-bottom: 60px;
     display: block;
@@ -425,7 +433,7 @@ ul {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
     text-decoration: none;
 }
 
