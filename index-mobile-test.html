@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmmaker & Developer | Portfolio</title>
+    <meta name="description" content="Portfolio of Caê Kokubo: a professional Filmmaker and Developer.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles - TESTING MOBILE VERSION -->
+    <link rel="stylesheet" href="css/style-mobile-test.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <p class="hero-subtitle">Welcome to Caê Kokubo's Page<br>
+                    Filmmaker <span class="accent">&</span> Developer
+                </p>
+                <div class="hero-title-wrapper">
+                    <h1 class="hero-title">CRAFTING<br>DIGITAL<br>STORIES</h1>
+                    <div class="hero-logo-placeholder">.</div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn primary">View my Work</a>
+                    <a href="#contact" class="btn secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Abstract visual or placeholder for video reel -->
+                <div class="visual-placeholder"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">01. ABOUT</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="lead">Merging the art of visual storytelling with the logic of code.</p>
+                        <p>Hello! I am Caê Kokubo, a professional with a dual passion: capturing moments through the
+                            lens and building robust digital experiences. With a background in both <span
+                                class="accent">filmmaking</span> and
+                            <span class="accent">software development</span>, I bring a unique perspective to every
+                            project.
+                        </p>
+                        <p>My approach is minimalist, disciplined, and focused on the essential. Whether it's a frame in
+                            a film or a line of code, every detail matters.</p>
+                        <p>Let's create something beautiful together.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/me1.jpg" alt="Caê Kokubo" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">02. SKILLS</h2>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Development</h3>
+                        <ul class="skill-list">
+                            <li>JavaScript (ES6+)</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>HTML5 & CSS3</li>
+                            <li>Git / GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Filmmaking</h3>
+                        <ul class="skill-list">
+                            <li>Directing</li>
+                            <li>Cinematography</li>
+                            <li>Video Editing (Premiere/After Effects)</li>
+                            <li>Camera Operation</li>
+                            <li>Scriptwriting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2 class="section-title">03. WORK</h2>
+
+                <!-- Carousel Container -->
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carousel-track">
+                        <!-- Portfolio Item 1 -->
+                        <div class="carousel-card">
+                            <div class="card-media">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fe3-nCpeZT4"
+                                    title="Sete Oito - SPAM Band" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="card-info">
+                                <h3>Sete Oito</h3>
+                                <p>Short Movie • 2013 • Cinematography</p>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 2 -->
+                        <div class="carousel-card">
+                            <div class="card-media">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/IlR48gPSWU8"
+                                    title="Correndo Riscos - SPAM Band" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="card-info">
+                                <h3>Correndo Riscos - SPAM Band</h3>
+                                <p>Music Video • 2011 • Director</p>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 3 -->
+                        <div class="carousel-card">
+                            <div class="card-media">
+                                <iframe src="https://player.vimeo.com/video/84758605" width="100%" height="315"
+                                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                    title="Sobre o Amor"></iframe>
+                            </div>
+                            <div class="card-info">
+                                <h3>Sobre o Amor - Trailer</h3>
+                                <p>TV Series - Pilot Episode • 2013 • Cinematography</p>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 4 -->
+                        <div class="carousel-card">
+                            <div class="card-media">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/EJvq5XUfDK8"
+                                    title="Cidade Sorriso" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="card-info">
+                                <h3>Cidade Sorriso</h3>
+                                <p>Short Documentary • 2012 • Director, Scriptwriting and Editing</p>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 5 -->
+                        <div class="carousel-card">
+                            <div class="card-media">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/gRBDRlj9Qzs"
+                                    title="Portfolio Video 5" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="card-info">
+                                <h3>Espécime 53 - Teaser</h3>
+                                <p>Short Movie • 2012 • Cinematography</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="nav-btn prev" id="prev-btn">&larr;</button>
+                        <button class="nav-btn next" id="next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">04. CONTACT</h2>
+                <div class="contact-content">
+                    <p class="contact-text">Interested in working together? Let's discuss your next project.</p>
+                    <a href="mailto:cae.ctba@gmail.com" class="email-link">cae.ctba@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/edkok81" target="_blank" class="social-link">GitHub</a>
+                <a href="https://www.instagram.com/cae.kok/" target="_blank" class="social-link">Instagram</a>
+                <a href="https://www.linkedin.com/in/eddeveloper/" target="_blank" class="social-link">LinkedIn</a>
+            </div>
+            <p class="copyright">Caê Kokubo © 2025. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="back-to-top">
+        <div class="logo-small">TO TOP</div>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
