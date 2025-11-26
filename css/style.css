@@ -260,6 +260,7 @@ ul {
 }
 
 .about-text p {
+    font-family: 'Kedebideri', sans-serif;
     color: var(--secondary-text);
     margin-bottom: 20px;
     font-size: 1.1rem;
@@ -396,6 +397,7 @@ ul {
 }
 
 .contact-text {
+    font-family: 'Kedebideri', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 40px;
     color: var(--secondary-text);
@@ -417,6 +419,10 @@ ul {
     padding: 40px 0;
     border-top: 1px solid var(--border-color);
     text-align: center;
+}
+
+.footer .copyright {
+    font-family: 'Kedebideri', sans-serif;
 }
 
 .social-links {
